@@ -22,7 +22,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/2019/01/13/hello-world/">
+    <link rel="canonical" href="https://iMinder.github.io/2019/01/13/hello-world/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -139,7 +139,7 @@
                     <h1>Hello World</h1>
                     
                     <span class="meta">
-                         作者 hongwuzhao
+                         作者 赵洪武
                         <span>
                           日期 2019-01-13
                          </span>
@@ -185,6 +185,12 @@
                 
 
                 
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
 
 
                 <!--加入新的评论系统-->
@@ -211,6 +217,16 @@
 
                 <!-- Featured Tags -->
                 
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        
+                    </div>
+                </section>
+                
 
                 <!-- Friends Blog -->
                 
@@ -221,6 +237,23 @@
 </article>
 
 
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "https-iminder-github-io";
+    var disqus_identifier = "https://iMinder.github.io/2019/01/13/hello-world/";
+    var disqus_url = "https://iMinder.github.io/2019/01/13/hello-world/";
+
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
 
 
 
@@ -285,7 +318,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
+        async("https://iMinder.github.io/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
